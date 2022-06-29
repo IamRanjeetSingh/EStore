@@ -1,0 +1,273 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Api\\ProductService.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Api\\ProductService.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Api\\ProductService.Api.csproj",
+        "projectName": "ProductService.Api",
+        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Api\\ProductService.Api.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Dell\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              },
+              "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Newtonsoft.Json.Schema": {
+              "target": "Package",
+              "version": "[3.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "projectName": "ProductService.Application",
+        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Dell\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "projectName": "ProductService.Domain",
+        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Dell\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "projectName": "ProductService.Infrastructure",
+        "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\ProductService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Dell\\NuGet Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Application\\ProductService.Application.csproj"
+              },
+              "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Dell\\Visual Studio Workplace\\EStore\\src\\services\\ProductService\\ProductService.Domain\\ProductService.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
