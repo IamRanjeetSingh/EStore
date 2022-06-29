@@ -1,5 +1,13 @@
 # EStore
-EStore is an E-Commerce Web Application built using Microservice Architecture. The backend is built with .Net Core Web APIs and the frontend using React.
+EStore is an E-Commerce Web Application built using Microservice Architecture. The backend is built with .Net Core Microservices exposed via RESTful Web APIs.   
+
+#### Tech Used
+* .Net Core Web APIs
+* SQL Server
+* Elasticsearch
+* MongoDB
+* RabbitMQ
+* React
 
 #### Progress
 | Components         | Status        |
