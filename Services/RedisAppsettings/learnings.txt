@@ -1,0 +1,9 @@
+1. Official docker image redis:latest, from docker.io not the one available on
+redis website, there are issues with that image while connecting from c#
+2. By default redis starts in non-persistance mode, to make it persistent use
+docker run ^
+--detach ^
+--publish-all ^
+--name redis ^
+redis/redis-stack-server ^
+bash -c "redis-server --dir /data --appendonly yes"

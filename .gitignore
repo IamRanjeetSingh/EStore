@@ -1,0 +1,10 @@
+.git/
+**/bin/
+bin/
+**/obj/
+obj/
+**/.vscode/
+.vscode/
+**/.vs/
+.vs/
+/Services/RedisAppsettings/data/

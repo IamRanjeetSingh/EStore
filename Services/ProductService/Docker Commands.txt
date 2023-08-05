@@ -1,0 +1,6 @@
+Build ProductService image
+	cd C:\Users\harsisin\source\myRepos\EStore\Services
+	docker build -t product-service-api -f ./ProductService/ProductService.Dockerfile .
+	
+Run ProductService container
+	docker run -d -P product-service-api

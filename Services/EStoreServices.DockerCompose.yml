@@ -1,0 +1,11 @@
+version: "3"
+
+services: 
+    productServiceApi: 
+        image: product-service-api:latest
+        ports:
+            - "80"
+    userServiceApi:
+        image: user-service-api:latest
+        ports:
+            - "80"

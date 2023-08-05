@@ -1,0 +1,42 @@
+* API Summary not showing in Swagger description
+=> In API project Build->Output settings, Add documentation file. This will generate the XML documentation file. Also in Swagger options add 
+var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+options.IncludeXmlComments(xmlPath, includeControllerXmlComments: true);
+To remove 'Missing XML Summary' warning, add it to Project properties Output-Errors And Warnings->Suppress specific warnings
+
+* Docker run command for running a dotnet api project
+=> docker run 
+-d 
+-v "C:\Users\harsisin\source\myRepos\EStore\Services\ProductService\Https:/root/.aspnet/https/" 
+-v "C:\Users\harsisin\source\myRepos\EStore\Services\ProductService\UserSecrets:/root/.microsoft/usersecrets" 
+-e "ASPNETCORE_ENVIRONMENT=Development" 
+-e "ASPNETCORE_URLS=https://+:443;http://+:80" 
+-e "ASPNETCORE_Kestrel__Certificates__Default__Path=/root/.aspnet/https/ProductService.API.pfx" 
+-e "ASPNETCORE_Kestrel__Certificates__Default__Password=dotnetdevcert" 
+-P 
+product-service-api
+
+
+Explaination
+docker run 
+-d
+	Run container in background and print container ID
+-v "C:\Users\harsisin\source\myRepos\EStore\Services\ProductService\Https:/root/.aspnet/https/" 
+	Mount this folder to add the dotnet dev cert to the container
+-v "C:\Users\harsisin\source\myRepos\EStore\Services\ProductService\UserSecrets:/root/.microsoft/usersecrets" 
+	Mount this folder to add the secret.json with the dev cert password to the container
+-e "ASPNETCORE_ENVIRONMENT=Development" 
+	env variable for container
+-e "ASPNETCORE_URLS=https://+:443;http://+:80" 
+	env variable for container
+-e "ASPNETCORE_Kestrel__Certificates__Default__Path=/root/.aspnet/https/ProductService.API.pfx" 
+	env variable for container, without this dotnet is unable to find the dotnet dev cert
+-e "ASPNETCORE_Kestrel__Certificates__Default__Password=dotnetdevcert" 
+	env variable for container, without this dotnet is unable to decrypt the dotnet dev cert
+-P 
+	Publish all exposed ports to random ports
+product-service-api
+	start a container with this image
+	
+docker run -d -e "ASPNETCORE_ENVIRONMENT=Development" -P product-service-api

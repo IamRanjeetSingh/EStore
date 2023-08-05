@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    userservicedc:
+        image: user-service-api
+        ports:
+            - "80"
+        deploy: 
+            replicas: 3
+    productservicedc:
+        image: product-service-api
+        ports:
+            - "80"
+        deploy:
+            replicas: 1
